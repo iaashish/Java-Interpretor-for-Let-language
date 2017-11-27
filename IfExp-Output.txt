@@ -1,0 +1,29 @@
+IfExp(
+	isZero(
+		DiffExp(
+			VarExp(
+				"x"
+			),
+			ConstExp(
+				11
+			)
+		)
+	),
+	DiffExp(
+		VarExp(
+			"y"
+		),
+		ConstExp(
+			2
+		)
+	),
+	DiffExp(
+		VarExp(
+			"y"
+		),
+		ConstExp(
+			4
+		)
+	)
+)
+Expression result : 18

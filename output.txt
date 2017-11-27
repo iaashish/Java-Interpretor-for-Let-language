@@ -1,0 +1,24 @@
+LetExp(
+	VarExp(
+		"x"
+	),
+	ConstExp(
+		200
+	),
+	LetExp(
+		VarExp(
+			"f"
+		),
+		VarExp(
+			"proc"
+		),
+		VarExp(
+			"z"
+		)
+	)
+)
+
+
+
+
+Expression result : 0
